@@ -14,20 +14,47 @@
 <body>
     <main>
         <!-- Seção Banner -->
-        <section id="banner">
-            <img src="Assets/neymar.jpg" alt="Banner do Neymar Jr" />
-            <h1>Neymar Jr</h1>
-            <div id="links">
-                <a href="https://www.youtube.com/neymarjr" target="_blank">Siga meu canal no YouTube</a>
-                <a href="https://www.instagram.com/neymarjr" target="_blank">Me siga no Instagram</a>
-                <a href="https://twitter.com/neymarjr" target="_blank">Me siga no Twitter</a>
-                <a href="https://www.facebook.com/neymarjr" target="_blank">Me siga no Facebook</a>
-                <a href="https://www.twitch.tv/neymarjr?lang=pt-br" target="_blank">Me siga na Twitch</a>
-            </div>
+        <section id="banner" class="banner">
+            <video
+            autoplay loop muted
+                src="./Video/videoneymar.mp4"
+                type="video/mp4">
+            </video>
+            <div class="container_info">
+                <div class="borda-gradiente">
+                    <img src="Assets/neymar.jpg" alt="Banner do Neymar Jr" />
+                </div>
+                <div class="container_titulo">
+                    <h1>Neymar Jr</h1>
+                    <img src="Assets/verificado.png" alt="">
+                </div>                
+            </div>            
+            <div id="links" class="container_links">
+                    <a href="https://www.youtube.com/neymarjr" target="_blank" class="link-item" >
+                            <img src="Assets/youtube.png" alt="Youtube" >
+                            <span >Siga meu canal no YouTube</span>
+                    </a>
+                    <a href="https://www.instagram.com/neymarjr" target="_blank" class="link-item">
+                        <img src="Assets/instagram.png" alt="Instagran" >
+                        <span >Me siga no Instagram</span>
+                    </a>
+                    <a href="https://twitter.com/neymarjr" target="_blank" class="link-item">
+                        <img src="Assets/twitter.png" alt="X" >
+                        <span >Me siga no Twitter</span>
+                    </a>
+                    <a href="https://www.facebook.com/neymarjr" target="_blank" class="link-item">
+                        <img src="Assets/facebook.png" alt="facebook" >
+                        <span >Me siga no Facebook</span>
+                    </a>
+                    <a href="https://www.twitch.tv/neymarjr?lang=pt-br" target="_blank" class="link-item">
+                        <img src="Assets/twitch.png" alt="Twitch" >
+                        <span>Me siga na Twitch</span>
+                    </a>
+            </div>    
         </section>
 
         <!-- Seção Estatísticas -->
-        <section id="estatisticas">
+        <section id="estatisticas" class="estatisticas">
             <h2>Estatísticas</h2>
             <table>
                 <thead>
